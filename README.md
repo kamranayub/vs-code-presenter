@@ -17,8 +17,15 @@ Gotta figure out:
 
 - How to playback virtually without requiring exact machine/workspace configuration?
 - Does it just snapshot the state of VS Code? If so how does it restore?
-- What about other parts of the UI (terminal, etc.)? Does it matt
-- What about different VS code versions over time?
+- What about other parts of the UI (terminal, etc.)?
+- What about different VS code versions over time? Does it matter (i.e. this thing just TAKES OVER and the UI is what it was when it was recorded)?
+
+Ideas:
+
+- Similar "mode" to debugging where status bar and UI changes to "record" mode
+- In playback mode, I think the only way for this to work is to take control over the entire IDE
+- Users could edit in playback mode, but it probably wouldn't do anything--without actual physical files/configuration, nothing would work
+- Could it allow tying into Git commits? Would that be a way to distribute the workspace? It would have to have preparation steps or automation (npm, etc.).
 
 ## Requirements
 
