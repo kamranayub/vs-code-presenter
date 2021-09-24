@@ -11,6 +11,12 @@ Highly experimental. Probably crazy.
 - Exports to a file that can be shared
 - Plays back recordings with "virtual" workspace
 
+## Prior Art
+
+https://marketplace.visualstudio.com/items?itemName=vsls-contrib.codetour
+
+Similar to CodeTour, but designed for presentations/recordings. If you could replace the commenting of CodeTours with audio clips, and it also supported recording _edits_ to the file, it would be a close match.
+
 ## TODO
 
 Gotta figure out:
